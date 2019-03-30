@@ -9,9 +9,9 @@ public class Example extends JFrame {
 	}
 	
 	private void initUI() {
-		add(new Board());
+		add(GalagaGame.getGalagaGameObject());
 		pack();
-		setTitle("Rocket Anima");
+		setTitle("GALAGA WARS");
 		setLocationRelativeTo(null);
 //		setVisible(true);
 	}
