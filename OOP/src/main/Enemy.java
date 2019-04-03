@@ -1,6 +1,6 @@
 package main;
 
-public class Enemy extends Sprite {
+public class Enemy extends Sprite {//
 	private GalagaGame game;	// 게임 객체를 참조할 변수
 	
 	/* 생성자 */
